@@ -1,14 +1,14 @@
 CROSS_HOST="x86_64-w64-mingw32"
 inherit cross
 
-NAME="mingw64-x86_64-libwpd0.9"
-VERSION=0.9.9
+NAME="mingw64-x86_64-libwpd0.10"
+VERSION=0.10.0
 RELEASE=1
-CATEGORY="Libs"
-SUMMARY="Library for reading WordPerfect documents"
+CATEGORY="Devel"
+SUMMARY="WordPerfect document library for Win64 toolchain"
 DESCRIPTION="Library and utilities for reading WordPerfect documents"
 HOMEPAGE="http://libwpd.sourceforge.net/"
-SRC_URI="mirror://sourceforge/libwpd/libwpd-${VERSION}.tar.gz"
+SRC_URI="mirror://sourceforge/libwpd/libwpd-${VERSION}.tar.xz"
 SRC_DIR="libwpd-${VERSION}"
 PATCH_URI="0.9.4-vpath.patch"
 
